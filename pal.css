@@ -1,0 +1,160 @@
+
+.dropdown {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #6B85A3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.dropdown a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+	width: 50px;
+}
+.dropdown a:hover {
+    color: white;
+}
+.dropdown .closebtn {
+    position: absolute;
+    top: -4;
+    left: 100px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.dropbtn{
+	 position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: left;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+	height: 54px;
+	}
+
+#header ,#gabody,#about,#footer{
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.center {
+    position: absolute;
+   left: 740px;
+    top: 180.500;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+ color: #f1f1f1
+} 
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	}
+div.bg {
+    padding-left: 0px;
+    margin-left: -7;
+    margin-right: 0px;
+    margin-top: -5;
+}
+div.bg img{
+	       
+    width: 1360px;
+    margin-left: -18;
+    margin-top: -20;
+	height: 350px;
+   
+}
+
+#gabody{
+	margin: 20px 20px 20px 20px ;
+	    height: 1600px;
+	 padding: 20px 20px 20px 40px;
+  
+    width: 1245px;
+   border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+   div.gallery {
+    margin-top: 5px;
+	margin-right:5px;
+	margin-bottom :10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 300;
+    height: 300;
+	 margin-top: 0px;
+    margin-bottom: 0px;
+	margin-right:5px;
+
+}
+
+div.desc {
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+
+
+}
+#about{
+	padding-left: 40px;
+    padding-top: 20px;
+	height:200px;
+	 margin-left: 20px;
+	 margin-top: 70px;
+    width: 1280px;
+    padding-left: 15px;
+  border-width:5px;  
+box-shadow: 10px 10px 5px grey ;
+  border-style:groove;
+}
+	#container{
+		    margin-top: -80;
+		background-color: 	#6B85A3;
+		margin-left: -5;
+    margin-bottom: -5;
+    margin-right: 5px;
+		padding-top: 32px;
+		padding-bottom: 32px;
+		font-size: 16px;
+		color: #fff;
+		width: 1320px;
+		
+	}
+	#footer{text-align:center;
+	margin-top:200px;
+	
+	}
+
